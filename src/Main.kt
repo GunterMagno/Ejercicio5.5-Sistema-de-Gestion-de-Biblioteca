@@ -9,10 +9,10 @@ fun tomarPrestado(usuario: Usuario, libro: Libro): String {
 }
 
 fun main() {
-    val libroEjemplo = Libro("1984", "George Orwell", 1949)
-    val estudiante = Estudiante("E001", "Carlos Pérez", "Ingeniería")
-    val profesor = Profesor("P001", "Dra. Ana Gómez", "Filosofía")
-    val visitante = Visitante("V001", "Luis Ramírez")
+    val libroEjemplo = Libro("Aceitunas con mayonesa", "Paquito Chocolater", 2003)
+    val estudiante = Estudiante("001", "Carlos Pérez", "Ingeniería")
+    val profesor = Profesor("002", "Dayron", "Filosofía")
+    val visitante = Visitante("003", "Luis Ramírez")
 
     println(tomarPrestado(estudiante, libroEjemplo))
     println(tomarPrestado(profesor, libroEjemplo))
